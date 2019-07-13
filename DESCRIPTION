@@ -1,6 +1,6 @@
 Package: appmetricaR
 Title: Use the appmetricaR to obtain non-aggregated data from your AppMetrica application. 
-Version: 0.1.0
+Version: 1.0.0
 Authors@R: person("Sergei", "Makarov", email = "sergeimakarovweb@gmail.com",
                   role = c("aut", "cre"))
 Description: appmetricaR allows you to get application traffic statistics and other data without using the AppMetrica interface.
