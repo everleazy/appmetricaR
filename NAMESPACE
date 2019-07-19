@@ -1,1 +1,5 @@
+export(get_appmetrica_data)
 export(get_appmetrica_logs)
+import(httr)
+importFrom(utils, browseURL)
+

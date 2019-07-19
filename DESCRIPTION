@@ -5,7 +5,7 @@ Authors@R: person("Sergei", "Makarov", email = "sergeimakarovweb@gmail.com",
                   role = c("aut", "cre"))
 Description: appmetricaR allows you to get application traffic statistics and other data without using the AppMetrica interface.
 Depends: R (>= 3.5.1)
-Imports: httr
+Imports: httr, utils
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
