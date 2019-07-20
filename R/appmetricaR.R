@@ -161,7 +161,7 @@ get_appmetrica_data <- function(
                    ),
                    add_headers(Authorization = paste0("OAuth ", token)))
 
-    answer <- content(request, as = "parsed", "text/csv")[-1, ]
+    answer <- suppressMessages(content(request, as = "parsed", "text/csv")[-1, ])
 
     rows_in_sample <- nrow(answer)
     offset <- limit + offset
