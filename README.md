@@ -7,7 +7,7 @@ You can simply install the appmetricaR just typing:
 devtools::install_github("SergeiMakarovWeb/appmetricaR")
 ```
 ## Authorization
-In order to use the AppMetrica API, you need to get an access token from the Yandex.OAuth service. You can get your own token by following instructions here and then use it in function’s body. Or you can skip obtaining the OAuth token and the appmetricaR will generate it for you. You will be able to save the token locally and then reuse it in you next requests.
+In order to use the AppMetrica API, you need to get an access token from the Yandex.OAuth service. You can get your own token by following instructions here and then use it in function’s body. Or you can skip obtaining the OAuth token and the appmetricaR will generate it for you. You will be able to save the token locally and then reuse it in your next requests.
 
 ## Usage
 
