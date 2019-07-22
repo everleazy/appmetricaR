@@ -31,7 +31,7 @@ df <- get_appmetrica_data (ids = "100000,100001",
 ```
 [Logs API](https://appmetrica.yandex.ru/docs/mobile-api/logs/about.html)
 
-In order to obtain raw data from the Logs API use the function get_appmetrica_logs.
+In order to obtain raw data from the Logs API use the function get_appmetrica_logs. Go to [API resources](https://appmetrica.yandex.ru/docs/mobile-api/logs/ref/index.html) in order to check what type of API you need.
 ```r
 df <- get_appmetrica_logs (type = 'installations',
                            application_id = 100000,
