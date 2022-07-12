@@ -26,7 +26,8 @@ get_appmetrica_logs <- function(
   date_until = "2018-01-02",
   date_dimension = "default",
   fields = "install_datetime,appmetrica_device_id,is_reinstallation",
-  token = NULL
+  token = NULL,
+  limit = 50000000
 ){
   if (is.null(token)) {
     token <- appmetrica_auth()
@@ -41,6 +42,7 @@ get_appmetrica_logs <- function(
                      date_since = date_since,
                      date_until = date_until,
                      date_dimension = date_dimension,
+                     limit = limit,
                      fields = gsub("[\\s\\n\\t]", "", fields, perl = TRUE)
                    ),
                    add_headers(Authorization = paste0("OAuth ", token)))
